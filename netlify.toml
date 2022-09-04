@@ -1,0 +1,35 @@
+[build]
+  functions = "api/"
+
+[dev]
+  targetPort = 8200
+
+[context.production.environment]
+  VUE_APP_API_BASE_URL = "https://prestige.quadrant2.us/api/v1/"
+  VUE_APP_API_TOKEN = "sd22sR0P75HRYpY4IWeXUIn4nw3URtcy"
+  VUE_APP_PUSHER_KEY = "8c1a514d6892be74297d"
+  VUE_APP_PUSHER_CLUSTER = "us2"
+  API_PUSHER_APP_ID = "1098511"
+  API_PUSHER_KEY = "8c1a514d6892be74297d"
+  API_PUSHER_SECRET = "b864209c59d1fc366173"
+  API_PUSHER_CLUSTER = "us2"
+
+[context.branch-deploy.environment]
+  VUE_APP_API_BASE_URL = "https://prestige.quadrant2.us/api/v1/"
+  VUE_APP_API_TOKEN = "sd22sR0P75HRYpY4IWeXUIn4nw3URtcy"
+  VUE_APP_PUSHER_KEY = "a0f29649a516d754ecb8"
+  VUE_APP_PUSHER_CLUSTER = "us2"
+  API_PUSHER_APP_ID = "1098510"
+  API_PUSHER_KEY = "a0f29649a516d754ecb8"
+  API_PUSHER_SECRET = "404b50a6b678e6f45436"
+  API_PUSHER_CLUSTER = "us2"
+
+[context.deploy-preview.environment]
+  VUE_APP_API_BASE_URL = "https://prestige.quadrant2.us/api/v1/"
+  VUE_APP_API_TOKEN = "sd22sR0P75HRYpY4IWeXUIn4nw3URtcy"
+  VUE_APP_PUSHER_KEY = "29342aca3e65df94f50a"
+  VUE_APP_PUSHER_CLUSTER = "us2"
+  API_PUSHER_APP_ID = "1098509"
+  API_PUSHER_KEY = "29342aca3e65df94f50a"
+  API_PUSHER_SECRET = "eb2bd0c11dd1b067f3ef"
+  API_PUSHER_CLUSTER = "us2"

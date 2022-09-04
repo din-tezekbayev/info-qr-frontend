@@ -1,0 +1,31 @@
+image: node:12.2.0
+
+pipelines:
+  branches:
+    master:
+      - step:
+          caches:
+            - node
+          deployment: staging
+          script:
+            - apt-get update && apt-get install -y rsync
+            - ssh-keyscan -H $SSH_SERVER_IP >> ~/.ssh/known_hosts
+            - cd $BITBUCKET_CLONE_DIR
+            - yarn
+            - rsync -chavzP --stats $SSH_SERVER_USER@$SSH_SERVER_IP:~/prestige-frontend/.env ./.env
+            - CI='' npm run build
+            - rsync -r -v -e ssh . $SSH_SERVER_USER@$SSH_SERVER_IP:~/prestige-frontend --delete-before --exclude '.git' --exclude 'node_modules' --exclude '.env'
+
+    dev:
+      - step:
+          caches:
+            - node
+          deployment: staging
+          script:
+            - apt-get update && apt-get install -y rsync
+            - ssh-keyscan -H $SSH_SERVER_IP >> ~/.ssh/known_hosts
+            - cd $BITBUCKET_CLONE_DIR
+            - yarn
+            - rsync -chavzP --stats $SSH_SERVER_USER@$SSH_SERVER_IP:~/prestige-frontend_dev/.env ./.env
+            - CI='' npm run build
+            - rsync -r -v -e ssh . $SSH_SERVER_USER@$SSH_SERVER_IP:~/prestige-frontend_dev --delete-before --exclude '.git' --exclude 'node_modules' --exclude '.env'

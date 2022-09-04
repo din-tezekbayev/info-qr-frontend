@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 416.562 500.922" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="o_f0kmk75ah_3" x1="0" y1="0.5" x2="1" y2="0.5" data-uid="o_f0kmk75ah_9">
+      <stop id="_0vL9j3uBHszkYbuKwuGyl" offset="0" stop-color="rgb(116, 209, 76)" stop-opacity="0.54" data-uid="o_f0kmk75ah_10"/>
+      <stop id="_dcBx2dYlTFeyZe4q8NHMs" offset="1" stop-color="rgb(116, 209, 76)" stop-opacity="0.54" data-uid="o_f0kmk75ah_11"/>
+    </linearGradient>
+    <linearGradient id="o_f0kmk75ah_4" x1="0" y1="0.5" x2="1" y2="0.5" data-uid="o_f0kmk75ah_12">
+      <stop id="_-hFu48ahonb-zjcsq32pY" offset="0" stop-color="rgb(97, 199, 140)" stop-opacity="0.54" data-uid="o_f0kmk75ah_13"/>
+      <stop id="_LYe0wNvW1dV2rkf8SXDbW" offset="1" stop-color="rgb(97, 199, 140)" stop-opacity="0.54" data-uid="o_f0kmk75ah_14"/>
+    </linearGradient>
+    <linearGradient id="o_f0kmk75ah_5" x1="0" y1="0.5" x2="1" y2="0.5" data-uid="o_f0kmk75ah_15">
+      <stop id="_dUlq_yZY77ua8IA9h7gZm" offset="0" stop-color="rgb(51, 181, 204)" stop-opacity="0.53" data-uid="o_f0kmk75ah_16"/>
+      <stop id="_RlHhXWX8M4aKm2JFNKsJ8" offset="1" stop-color="rgb(51, 181, 204)" stop-opacity="0.53" data-uid="o_f0kmk75ah_17"/>
+    </linearGradient>
+    <linearGradient id="o_f0kmk75ah_6" x1="0" y1="0.5" x2="1" y2="0.5" data-uid="o_f0kmk75ah_18">
+      <stop id="_EvjGV52iHX-f8-WdfZ489" offset="0" stop-color="rgb(117,142,192)" stop-opacity="0.53" data-uid="o_f0kmk75ah_19"/>
+      <stop id="_Lmpl-hNvOMPymZsP-n9L4" offset="1" stop-color="rgb(117,142,192)" stop-opacity="0.53" data-uid="o_f0kmk75ah_20"/>
+    </linearGradient>
+  </defs>
+  <g id="_62xLwANduGTY0AnIuSX2r" transform="matrix(2.258168, 0, 0, 2.222318, -389.807709, -82.534348)" data-uid="o_f0kmk75ah_21" style="">
+    <path id="_Et9Jd8x5GnV205iHKGYJy" fill-rule="evenodd" clip-rule="evenodd" d="M73.232 28.96c-5.631 0-10.194 4.567-10.194 10.197   c0 8.74-4.368 13.108-13.11 13.108c-8.737 0-13.111-4.369-13.111-13.108c0-5.63-4.563-10.197-10.194-10.197   s-10.194 4.567-10.194 10.197c0 5.631 4.563 10.198 10.194 10.198c8.742 0 13.111 4.369 13.111 13.111   c0 5.631 4.563 10.194 10.195 10.194c5.63 0 10.2-4.563 10.2-10.194c0-8.742 4.368-13.111 13.104-13.111   c5.637 0 10.2-4.567 10.2-10.198C83.433 33.527 78.869 28.96 73.232 28.96z" fill="url(#o_f0kmk75ah_3)" transform="matrix(-1.9694325923919678, 0.03431495279073715, -0.03431495279073715, -1.9694325923919678, 389.5705871582031, 316.0334777832031)" data-uid="o_f0kmk75ah_22"/>
+    <path id="_TnvFaCpgbUGY0RxVYO-a4" fill-rule="evenodd" clip-rule="evenodd" d="M73.232 28.96c-5.631 0-10.194 4.567-10.194 10.197   c0 8.74-4.368 13.108-13.11 13.108c-8.737 0-13.111-4.369-13.111-13.108c0-5.63-4.563-10.197-10.194-10.197   s-10.194 4.567-10.194 10.197c0 5.631 4.563 10.198 10.194 10.198c8.742 0 13.111 4.369 13.111 13.111   c0 5.631 4.563 10.194 10.195 10.194c5.63 0 10.2-4.563 10.2-10.194c0-8.742 4.368-13.111 13.104-13.111   c5.637 0 10.2-4.567 10.2-10.198C83.433 33.527 78.869 28.96 73.232 28.96z" fill="url(#o_f0kmk75ah_4)" transform="matrix(1.9697389602661133, 0, 0, 1.9697389602661133, 190.248046875, 72.70922088623047)" data-uid="o_f0kmk75ah_23"/>
+    <path id="_iTYV7qm-8bzYSiCWJ8dMw" fill-rule="evenodd" clip-rule="evenodd" d="M73.232 28.96c-5.631 0-10.194 4.567-10.194 10.197   c0 8.74-4.368 13.108-13.11 13.108c-8.737 0-13.111-4.369-13.111-13.108c0-5.63-4.563-10.197-10.194-10.197   s-10.194 4.567-10.194 10.197c0 5.631 4.563 10.198 10.194 10.198c8.742 0 13.111 4.369 13.111 13.111   c0 5.631 4.563 10.194 10.195 10.194c5.63 0 10.2-4.563 10.2-10.194c0-8.742 4.368-13.111 13.104-13.111   c5.637 0 10.2-4.567 10.2-10.198C83.433 33.527 78.869 28.96 73.232 28.96z" fill="url(#o_f0kmk75ah_5)" transform="matrix(0.06878308206796646, 1.9685134887695312, -1.9685134887695312, 0.06878308206796646, 312.8594055175781, 2.747023105621338)" data-uid="o_f0kmk75ah_24"/>
+    <path id="_5nDZzyVJrxnzkwt5atHt8" fill-rule="evenodd" clip-rule="evenodd" d="M73.232 28.96c-5.631 0-10.194 4.567-10.194 10.197   c0 8.74-4.368 13.108-13.11 13.108c-8.737 0-13.111-4.369-13.111-13.108c0-5.63-4.563-10.197-10.194-10.197   s-10.194 4.567-10.194 10.197c0 5.631 4.563 10.198 10.194 10.198c8.742 0 13.111 4.369 13.111 13.111   c0 5.631 4.563 10.194 10.195 10.194c5.63 0 10.2-4.563 10.2-10.194c0-8.742 4.368-13.111 13.104-13.111   c5.637 0 10.2-4.567 10.2-10.198C83.433 33.527 78.869 28.96 73.232 28.96z" fill="url(#o_f0kmk75ah_6)" transform="matrix(0, 1.9697389602661133, -1.9697389602661133, 0, 319.3802185058594, 96.96078491210938)" data-uid="o_f0kmk75ah_25"/>
+  </g>
+</svg>
